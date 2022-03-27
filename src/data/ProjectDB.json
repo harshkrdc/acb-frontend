@@ -1,0 +1,91 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "title" : "ABC",
+            "description" : "abcde",
+            "issueDate" : "18/01/2022",
+            "logDate" : "23/03/2022",
+            "status" : "In Progress"
+
+        },
+        {
+            "id" : 2,
+            "title" : "DEF",
+            "description" : "defghi",
+            "issueDate" : "18-Jan-2022",
+            "logDate" : "23-Jan-2022",
+            "status" : "In Progress"
+
+        },
+        {
+            "id" : 3,
+            "title" : "HIJ",
+            "description" : "hijklm",
+            "issueDate" : "18-Jan-2022",
+            "logDate" : "23-Jan-2022",
+            "status" : "In Progress"
+
+        },
+        {
+            "id" : 7,
+            "title" : "klm",
+            "description" : "klmnop",
+            "issueDate" : "18-01-2022",
+            "logDate" : "23-Jan-2022",
+            "status" : "In Progress"
+
+        }
+    ],
+
+    "members" : [
+        {
+            "memberId" : 1,
+            "name" : "Harsh",
+            "band" : "abc",
+            "pay" : 500000,
+            "email" : "abc@gmail.com",
+            "position" : "member",
+            "contact" : 9998887776
+        },
+        {
+            "memberId" : 2,
+            "name" : "Kautuk",
+            "band" : "abc",
+            "pay" : 500000,
+            "email" : "abc@gmail.com",
+            "position" : "member",
+            "contact" : 9998887776
+        },
+        {
+            "memberId" : 3,
+            "name" : "Himanshi",
+            "band" : "abc",
+            "pay" : 500000,
+            "email" : "abc@gmail.com",
+            "position" : "member",
+            "contact" : 9998887776
+        },
+        {
+            "memberId" : 4,
+            "name" : "Sankarshana",
+            "band" : "abc",
+            "pay" : 500000,
+            "email" : "abc@gmail.com",
+            "position" : "member",
+            "contact" : 9998887776
+        }
+    ],
+
+    "bills" : [
+        {
+            "billId" : 1,
+            "projectId": 1,
+            "month" : "January",
+            "amount" : 1100500,
+            "year" : 2022,
+            "billDate" : "24-March-2022",
+            "finMemberId" : 1
+        }
+    ]
+}

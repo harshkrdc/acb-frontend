@@ -1,0 +1,34 @@
+.c-container{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #DAE1EE;
+    border-radius: 5px;
+    padding : 10px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+.c-container h3{
+    letter-spacing: 0.005em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: grey;
+}
+
+.time-period{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.status-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

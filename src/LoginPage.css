@@ -1,0 +1,73 @@
+.login-page{
+    background-color: aliceblue;
+    display: flex; align-items: center; justify-content: space-between; flex-direction: row;
+    height: 870px;
+}
+
+.login-logo{
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 80px;
+}
+.login-logo img{
+    width: 275px;
+    height: 58px;   
+}
+
+.login-container{
+    width: 500px;
+    /* height: 550px; */
+    background-color: white;
+    padding: 30px;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.1);
+    
+}
+.login-title h1{
+    font-weight: 500; font-size: 32px; line-height: 40px;
+}
+.login-title h3{
+    font-weight: 400; font-size: 16px; line-height: 24px; letter-spacing: 0.01em;
+    color: #6C7B8C;
+    margin-top: 0px;
+}
+
+.form-container{
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    display: flex; align-items: center; justify-content: start; flex-direction: column;
+    
+}
+.form-container h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #6C7B8C;
+
+}
+
+.form-container .form-bottom{
+    display: flex; align-items: center; justify-content: space-between; flex-direction: row;
+    /* border: 2px solid black; */
+    margin-top: 0px;
+
+}
+
+.form-bottom h4{
+    /* border: 2px solid black; */
+    margin-top: 0px;
+}
+
+.form-last{
+    display: flex; align-items: center; justify-content: space-between; flex-direction: row;
+}
+
+
+.login-left{
+    /* border: 2px solid black;  */
+    height: 100%;
+}
+.login-right{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex; justify-content: end; align-items: end;
+}

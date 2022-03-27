@@ -1,0 +1,182 @@
+.pd-main{
+    display: flex; align-items: center; justify-content:start; flex-direction: column;
+    background-color: aliceblue;
+    height: 900px;
+
+}
+
+.bc-container{
+    /* border: 2px solid black; */
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pd-container{
+    width: 95%; height: 700px;
+    /* background-color: aliceblue; */
+    display: flex; align-items: flex-start; justify-content: space-between; flex-direction: row;
+}
+
+.pd-left{
+    /* background-color: white; */
+    width: 65%;
+    display: flex; align-items: center; justify-content: space-between; flex-direction: column;
+
+}
+.pd-right{
+    width: 33%; height: 80%;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    display: flex; align-items: center; justify-content: start; flex-direction: column;
+
+}
+
+
+.pd-left .pd-left-top{
+    width: 100%;
+    padding:20px;
+    padding-right: 30px;
+    background-color: white;
+    display: flex; align-items: center; justify-content: space-between; flex-direction: column;
+    /* border: 2px solid black; */
+
+}
+.pd-left .pd-left-bottom{
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex; align-items: center; flex-direction: column;
+
+}
+.pd-title-section{
+    display: flex; justify-content: space-between; flex-direction: row;
+    width: 100%; height: 40px;
+}
+.pd-left h1{
+    font-weight: 600; font-size: 24px; line-height: 32px;
+}
+.pd-left h5{
+    font-weight: 500; font-size: 16px; line-height: 20px;
+    color: #6C7B8C;
+}
+.pd-left p{
+    width: 70%;
+    color: #8795A6;
+    font-weight: 400; font-size: 12px; line-height: 18px;
+    /* border: 2px solid black; */
+}
+
+.pd-card-container{
+    /* border: 2px solid black; */
+    height: 40%;
+    width: 100%;
+    display: flex; align-items: center; justify-content: space-around; flex-direction: row;
+}
+.pd-card{
+    /* border: 2px solid black; */
+    width: 30%;
+    display: flex; align-items: center; justify-content: flex-start; flex-direction: row;
+}
+.pd-card-left{
+    width: 40px; height: 60px;
+    display: flex; align-items: center; justify-content: center;
+    /* border: 2px solid black; */
+
+}
+.pd-card-right{
+    /* border: 2px solid black; */
+    padding-left: 15px ;
+    width: 200px;
+    display: flex; align-items: flex-start; justify-content: center; flex-direction: column;
+
+}
+.pd-card-right h2{
+    font-weight: 500; font-size: 20px; 
+    margin-bottom: 8px;
+    /* line-height: 20px; */
+}
+.pd-card-right h6{
+    font-weight: 400; font-size: 16px; line-height: 20px;
+    color: #6C7B8C;
+    
+}
+
+.pd-left-bottom .heading{
+    width: 98%;
+    margin-bottom: 5px;
+}
+.pd-left-bottom .bill-card{
+    width: 98%; height: 150px;
+    border-radius: 10px;
+    background-color: #FFEFE2;
+}
+
+/* --------------------------Item List Heading-------------------------- */
+/* --------------------------------------------------------------------- */
+.item-list-head{
+    width: 98%; height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex; align-items: center; justify-content: space-between;
+}
+.item-list-head .name{
+    padding-left: 20px;
+    width: 35%;
+}
+.item-list-head .hour{
+    padding-left: 20px;
+    width: 15%;
+}
+.item-list-head .total{
+    padding-right: 20px;
+    width: 20%;
+    display: flex; justify-content: end;
+}
+.item-list-head h7{
+    font-weight: 400; font-size: 14px; line-height: 20px;
+    text-transform: capitalize;
+    color: #6C7B8C;
+}
+/* --------------------------------------------------------------------- */
+
+/* --------------------------Item List---------------------------------- */
+.item-list{
+    display: flex; align-items: center; justify-content: space-between;
+    width: 98%;
+    margin-top: 10px;
+}
+
+.item-list .name{
+    padding-left: 20px;
+    width: 35%;
+}
+.item-list .hour{
+    padding-left: 20px;
+    width: 15%;
+}
+.item-list .total{
+    padding-right: 20px;
+    width: 20%;
+    display: flex; justify-content: end;
+}
+.item-list h7{
+    font-weight: 500; font-size: 14px; line-height: 20px;
+    text-transform: capitalize;
+    color: #0A0F2A;
+}
+/* --------------------------------------------------------------------- */
+
+.item-final-total{
+    width: 95%; margin-top: 20px;
+    display: flex; align-items: end; justify-content:end ; flex-direction: row;
+}
+
+.team-approval{
+    width: 95%;
+}
+.pd-right .heading{
+    width: 95%;
+}
